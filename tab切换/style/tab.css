@@ -1,0 +1,68 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,input,button,textarea,p,blockquote,th,td{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.clear{
+	zoom: 1;
+}
+.clear:after{
+	content: "";
+	clear: both;
+	display: block;
+	overflow: hidden;
+}
+.wrap{
+	width: 398px;
+	height: 146px;
+	margin: 100px auto;
+	border: 1px solid #ccc;
+	overflow: hidden;
+}
+/*标签样式*/
+.tit{
+	height: 47px;
+	background-color: #F7F7F7;
+}
+.tit ul{
+	width: 400px;
+	margin-left: -1px;
+}
+.tit ul li{
+	float: left;
+	width: 78px;
+	height: 46px;
+	line-height: 46px;
+	padding: 0 1px;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+}
+ul li a:link, ul li a:visited{
+	color: #000;
+}
+ul li a:hover{
+	color: #f90;
+}
+/*切换标签时的样式*/
+.tit ul li.select{
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-bottom-color: #fff;
+	background-color: #fff;
+	padding: 0;
+	font-weight: bold;
+}
+/*内容样式*/
+.cont{
+	height: 100px;
+}
+.cont .main ul li{
+	float: left;
+	width: 179px;
+	padding: 20px 10px 0 10px;
+}
